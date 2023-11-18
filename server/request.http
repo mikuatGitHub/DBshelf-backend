@@ -1,0 +1,8 @@
+# 使い方
+# 1. 拡張機能 Rest Client(humao.rest-client) をインストール
+# 2. 下記の各リクエストの上に表示される Send Request を押すとリクエストが送信される
+#
+# 参考
+# https://github.com/Huachao/vscode-restclient
+
+http://localhost:3000/api/skills
