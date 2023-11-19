@@ -12,7 +12,6 @@ const skillSchema = new Schema(
     },
     rating: {
       type: Number,
-      required: true,
     },
     comment: {
       type: String,
@@ -22,5 +21,4 @@ const skillSchema = new Schema(
 );
 
 // model(model名, schema)
-const Skill= model("Skill", skillSchema)
-export default Skill;
+export const Skill= model("Skill", skillSchema)

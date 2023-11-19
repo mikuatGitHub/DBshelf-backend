@@ -5,4 +5,41 @@
 # 参考
 # https://github.com/Huachao/vscode-restclient
 
+http://localhost:3000/api
+###
+
 http://localhost:3000/api/skills
+###
+
+GET http://localhost:3000/api/skills
+###
+
+GET http://localhost:3000/api/skills/65598d9344e18593bd5e2960
+###
+
+POST http://localhost:3000/api/skills
+Content-Type: application/json
+
+{
+  "title": "タイトルです",
+  "description": "説明です",
+  "rating": 3,
+  "comment": "コメントです"
+}
+###
+
+PATCH  http://localhost:3000/api/skills/65598d9344e18593bd5e2960
+Content-Type: application/json
+
+{
+  "title": "タイトルの編集",
+  "description": "説明の編集",
+  "rating": 3,
+  "comment": "コメントの編集"
+}
+###
+
+DELETE  http://localhost:3000/api/skills/655989c67be3fb6c6a7d38fb
+###
+
+
